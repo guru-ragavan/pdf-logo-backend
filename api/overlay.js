@@ -20,7 +20,7 @@ export default async function handler(req, res) {
   busboy.on("finish", async () => {
     const pdfDoc = await PDFDocument.load(pdfBuffer);
     const logoBytes = fs.readFileSync(
-      path.join(process.cwd(), "api/logo.png")
+      path.join(process.cwd(), "api/Logo.png")
     );
 
     const logo = await pdfDoc.embedPng(logoBytes);
