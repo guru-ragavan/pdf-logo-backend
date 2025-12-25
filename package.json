@@ -1,0 +1,7 @@
+{
+  "name": "pdf-logo-overlay",
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "busboy": "^1.6.0"
+  }
+}
